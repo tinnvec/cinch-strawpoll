@@ -25,7 +25,7 @@ bot = Cinch::Bot.new do
     c.plugins.options = {
       ...
       Cinch::Plugins::Strawpoll => {
-        repeat_time: 60 # Seconds to wait between poll notifications
+        repeat_time: 60, # Seconds to wait between poll notifications
         repeat_count: 3 # Total number of poll notifications
       }
     }
