@@ -3,15 +3,15 @@ Strawpoll plugin for Cinch. http://strawpoll.me
 
 ## Installation
 In your `Gemfile`
-```ruby
+```Ruby
 gem 'cinch-strawpoll'
 ```
-Don't forget to `bundle`
-```bash
-$ bundle
+Don't forget to `bundle install`
+```Shell
+$ bundle install
 ```
 Add to your bot config
-```ruby
+```Ruby
 require 'cinch'
 require 'cinch/plugins/strawpoll'
 ...
@@ -34,7 +34,7 @@ end
 ```
 
 ## Usage
-```
+```IRC
 !poll <title> | <option>, <option>
 ```
 Requests a straw poll using `<title>` and a minimum of 2 `<option>` separated by commas.
