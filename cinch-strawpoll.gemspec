@@ -26,5 +26,4 @@ Gem::Specification.new do |spec|
   # Development dependencies
   spec.add_development_dependency 'bundler', '~> 1.3'
   spec.add_development_dependency 'rake', '~> 0'
-  spec.add_development_dependency 'rspec', '~> 0'
 end

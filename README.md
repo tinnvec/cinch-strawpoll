@@ -1,3 +1,6 @@
+[![Chatrealm IRC][irc-chatrealm-badge]][irc-chatrealm-link]
+[![Support tinnvec][support-tinnvec-badge]][support-tinnvec-link]
+
 # cinch-strawpoll
 Strawpoll plugin for Cinch. http://strawpoll.me
 
@@ -8,7 +11,7 @@ gem 'cinch-strawpoll'
 ```
 Don't forget to `bundle install`
 ```Shell
-$ bundle install
+bundle install
 ```
 Add to your bot config
 ```Ruby
@@ -39,5 +42,8 @@ end
 ```
 Requests a straw poll using `<title>` and a minimum of 2 `<option>` separated by commas.
 
-## Support
-Like my code? Want to support my coffee habit? http://tinnvec.com/support
+[irc-chatrealm-link]: http://irc.chatrealm.net
+[irc-chatrealm-badge]: https://img.shields.io/badge/irc-chatrealm-orange.svg?style=flat-square
+
+[support-tinnvec-link]: http://tinnvec.com/support
+[support-tinnvec-badge]: https://img.shields.io/badge/Support-tinnvec-blue.svg?style=flat-square
