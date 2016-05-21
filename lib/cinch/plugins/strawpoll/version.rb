@@ -4,7 +4,7 @@
 module Cinch
     module Plugins
         module Strawpoll
-            VERSION = '0.1.6'
+            VERSION = '0.1.9'
         end
     end
 end

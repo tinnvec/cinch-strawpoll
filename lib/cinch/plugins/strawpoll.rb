@@ -4,7 +4,7 @@
 require 'cinch'
 require 'cinch/extensions/authentication'
 
-require 'strawpoll/api'
+require_relative 'strawpoll/api'
 
 module Cinch
     module Plugins
@@ -27,7 +27,7 @@ module Cinch
                 @repeat_count   = config[:repeat_count]   || 3
                 @allow_pol      = config[:allow_pol]      || false
 
-                @strawpoll_api = Cinch::Plugins::Strawpoll::Api.new
+                @strawpoll_api = StrawpollApi.new
             end
 
             def execute(m, mode, title, choices_string)
